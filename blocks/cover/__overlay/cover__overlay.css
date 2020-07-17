@@ -8,6 +8,10 @@
   cursor: pointer;
   text-decoration: none;
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .cover__overlay:hover {
@@ -21,3 +25,12 @@
     min-height: 640px;
   }
 }
+
+@media (max-width: 768px) {
+  .cover__overlay {
+    max-width: 768px;
+    min-height: 480px;
+  }
+}
+
+

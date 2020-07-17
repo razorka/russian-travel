@@ -1,14 +1,22 @@
 .places {
   max-width: 984px;
   width: 100%;
-  min-height: 3392px;
   margin: 0 auto;
   padding-top: 92px;
 }
 
-@media (max-width: 1024px) {
+/*надо потом разобраться какому из блоков делать медиа-запросы
+ - ато сейчас задвоение places и place получается - наверное достаточно одному*/
+
+/*@media (max-width: 1024px) {
   .places {
     max-width: 928px;
-    min-height: 3296px;
   }
 }
+
+@media (max-width: 768px) {
+  .places {
+    max-width: 720px;
+  }
+}
+*/

@@ -2,12 +2,18 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 
+
+/*не могу понять что не так с этим блоком
+- min-height тут явно лишние они все испортят в итоге -
+слишком много получается медиазапросов
+ - пока сделал по аналогии из слака от татьяны - но надо разбираться*/
+
 .cover {
   margin: 0 auto;
   max-width: 1184px;
   min-height: 740px;
   width: 100%;
-  background: url(../../images/__background.jpg);
+  background-image: url(../../images/__background.jpg);
   position: relative;
 }
 
@@ -15,5 +21,12 @@
   .cover {
     max-width: 1024px;
     min-height: 640px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover {
+    max-width: 768px;
+    min-height: 480px;
   }
 }

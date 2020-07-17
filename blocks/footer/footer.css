@@ -5,7 +5,6 @@
 .footer {
   max-width: 1184px;
   width: 100%;
-  min-height: 18px;
   margin: 0 auto;
   padding-top: 92px;
   padding-bottom: 24px;
@@ -16,5 +15,11 @@
 @media (max-width: 1024px) {
   .footer {
     max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    max-width: 720px;
   }
 }

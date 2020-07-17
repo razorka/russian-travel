@@ -1,6 +1,6 @@
 .place__title {
   /*max-width: 460px;*/
-  width: 50%;
+  width: 47%;
   margin: 0;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -12,9 +12,9 @@
   align-self: flex-end;
 }
 
-/*@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .place__title {
-    max-width: 440px;
+    font-size: 42px;
+    line-height: 46px;;
   }
 }
-*/

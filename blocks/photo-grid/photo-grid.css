@@ -3,7 +3,6 @@
 .photo-grid {
   max-width: 1184px;
   width: 100%;
-  min-height: 671px;
   margin: 0 auto;
   padding-top: 92px;
   padding-left: 0;
@@ -17,8 +16,15 @@
 @media (max-width: 1024px) {
   .photo-grid {
     max-width: 928px;
-    min-height: 942px;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 14px 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .photo-grid {
+    max-width: 720px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 16px 16px;
   }
 }

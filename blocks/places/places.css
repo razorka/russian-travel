@@ -1,0 +1,14 @@
+.places {
+  max-width: 984px;
+  width: 100%;
+  min-height: 3392px;
+  margin: 0 auto;
+  padding-top: 92px;
+}
+
+@media (max-width: 1024px) {
+  .places {
+    max-width: 928px;
+    min-height: 3296px;
+  }
+}

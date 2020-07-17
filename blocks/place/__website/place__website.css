@@ -1,0 +1,10 @@
+.place__website {
+  margin: 0;
+  list-style: none;
+  padding-left: 0; /*40px*/
+  padding-bottom: 48px;
+  /*max-width: 456px;*/
+  width: 50%;
+  min-height: 46px;
+  align-self: flex-end;
+}

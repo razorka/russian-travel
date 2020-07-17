@@ -1,0 +1,13 @@
+.place__website-link {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+
+.place__website-link:hover {
+  cursor: pointer;
+}

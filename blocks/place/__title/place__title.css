@@ -1,0 +1,20 @@
+.place__title {
+  /*max-width: 460px;*/
+  width: 50%;
+  margin: 0;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: #ffffff;
+  padding-bottom: 48px;
+  align-self: flex-end;
+}
+
+/*@media (max-width: 1024px) {
+  .place__title {
+    max-width: 440px;
+  }
+}
+*/

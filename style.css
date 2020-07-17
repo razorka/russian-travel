@@ -167,6 +167,7 @@
   margin: 0 auto;
   background-color: #2a2c2f;
 }
+
 .header {
   max-width: 1184px;
   width: 100%;
@@ -175,6 +176,7 @@
   padding-top: 28px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__logo {
@@ -318,11 +320,14 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 16px 16px;
+  line-height: 0;
 }
 
 .photo-grid__item {
-  max-width: 284px;
+  min-width: 284px;
+  width: 100%;
   min-height: 213px;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -334,6 +339,8 @@
   padding-top: 92px;
 }
 
+/*Попробую сделать через space-beetwen вместо padding на все верстки*/
+
 .place {
   max-width: 984px;
   width: 100%;
@@ -342,6 +349,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   padding-bottom: 80px;
+  justify-content: space-between;
 }
 
 .place:last-child {
@@ -365,7 +373,7 @@
 .place__website {
   margin: 0;
   list-style: none;
-  padding-left: 40px;
+  padding-left: 0; /*40px*/
   padding-bottom: 48px;
   max-width: 456px;
   width: 100%;
@@ -400,7 +408,7 @@
 
 .place__image {
   max-width: 460px;
-  min-height: 460px;
+  max-height: 460px;
   object-fit: cover;
 }
 
@@ -408,7 +416,7 @@
   max-width: 484px;
   width: 100%;
   margin: 0;
-  padding-left: 40px;
+  /*padding-left: 40px;*/
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -519,3 +527,95 @@
   line-height: 16px;
   color: white;
 }
+
+@media (max-width: 1024px) {
+  .page {
+    max-width: 1024px;
+    min-height: 6898px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+    min-height: 52px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+    min-height: 962px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .lead__image {
+    max-width: 928px;
+    min-height: 580px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .photo-grid {
+    max-width: 928px;
+    min-height: 942px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 14px 14px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .places {
+    max-width: 928px;
+    min-height: 3296px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .place {
+    max-width: 928px;
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .place__title {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .place__image {
+    max-width: 440px;
+    max-height: 440px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .place__paragraph {
+    max-width: 456px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cover {
+    max-width: 1024px;
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cover__overlay {
+    max-width: 1024px;
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    max-width: 928px;
+  }
+}
+
+

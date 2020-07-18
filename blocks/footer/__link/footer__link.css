@@ -13,3 +13,16 @@
 .footer__link:hover {
   cursor: pointer;
 }
+
+.footer__link:last-child {
+  padding-right: 0;
+}
+
+@media (max-width: 320px) {
+  .footer__link {
+    padding-bottom: 32px;
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+

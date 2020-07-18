@@ -14,7 +14,6 @@
  наверное больше вопрос к принципиальности ревьюера*/
 
 .place {
-  max-width: 984px;
   width: 100%;
   margin: 0 auto;
   /*min-height: 660px;*/
@@ -44,3 +43,13 @@
     max-width: 720px;
   }
 }
+
+@media (max-width: 320px) {
+  .place {
+    max-width: 320px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+

@@ -33,4 +33,11 @@
   }
 }
 
+@media (max-width: 320px) {
+  .cover__overlay {
+    max-width: 320px;
+    min-height: 200px;
+  }
+}
+
 

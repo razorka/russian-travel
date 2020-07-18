@@ -23,3 +23,9 @@
     max-width: 720px;
   }
 }
+
+@media (max-width: 320px) {
+  .header {
+    max-width: 288px;
+  }
+}

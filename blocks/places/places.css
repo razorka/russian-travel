@@ -8,7 +8,7 @@
 /*надо потом разобраться какому из блоков делать медиа-запросы
  - ато сейчас задвоение places и place получается - наверное достаточно одному*/
 
-/*@media (max-width: 1024px) {
+@media (max-width: 1024px) {
   .places {
     max-width: 928px;
   }
@@ -19,4 +19,9 @@
     max-width: 720px;
   }
 }
-*/
+
+@media (max-width: 320px) {
+  .places {
+    max-width: 320px;
+  }
+}

@@ -14,6 +14,7 @@
   min-height: 740px;
   width: 100%;
   background-image: url(../../images/__background.jpg);
+  background-size: cover;
   position: relative;
 }
 
@@ -28,5 +29,12 @@
   .cover {
     max-width: 768px;
     min-height: 480px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover {
+    max-width: 320px;
+    min-height: 200px;
   }
 }

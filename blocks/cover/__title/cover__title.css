@@ -11,9 +11,17 @@
   color: #ffffff;
 }
 
+@media (max-width: 768px) {
+  .cover__title {
+    font-size: 9.5vw;
+    line-height: 1.1;
+  }
+}
+
 @media (max-width: 320px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
   }
 }
+

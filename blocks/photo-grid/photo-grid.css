@@ -31,8 +31,10 @@
 
 @media (max-width: 320px) {
   .photo-grid {
-    max-width: 720px;
+    max-width: 320px;
     grid-template-columns: repeat(1, 1fr);
-    column-gap: 12px;
+    column-gap: 12px 0;
+    justify-items: center;
+
   }
 }

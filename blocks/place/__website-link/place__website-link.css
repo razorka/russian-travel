@@ -2,7 +2,7 @@
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 2.34vw;
+  font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
   color: #ffffff;
@@ -11,4 +11,10 @@
 .place__website-link:hover {
   opacity: 0.8;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .place {
+    font-size: 2.34vw;
+  }
 }

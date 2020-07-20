@@ -6,6 +6,7 @@
   line-height: 28px;
   color: white;
   text-decoration: none;
+  transition: opacity .4s ease;
 }
 
 .header__lang-link + .header__lang-link {

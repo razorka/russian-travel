@@ -8,6 +8,7 @@
   font-size: 16px;
   line-height: 18px;
   padding-right: 18px;
+  transition: opacity .4s ease;
 }
 
 .footer__link:hover {
